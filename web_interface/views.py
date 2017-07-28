@@ -120,8 +120,7 @@ def change_avatar(request):
             profile.picture = request.FILES['picture']
         profile.save()
         return HttpResponseRedirect(reverse('index'))
-
-
+"""
 def change_password(request):
     success = False
     error = False
@@ -139,7 +138,7 @@ def change_password(request):
                                                            'error': error,
                                                            'profile_form': UserProfileForm(),
                                                            'change_password_form': ChangePasswordForm()
-                                                           })
+                                                           })"""
 
 
 

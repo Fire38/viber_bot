@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11071a91-002f-49a3-a865-aefe9d1516df" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002_sZSbocH.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0003_jVqr05N.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_images/image-0-02-05-c15f0065bc7f3cdd907164d13811a0e11c856932b4a6d93b1778faf5136892ba-V.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/back_button.py" afterPath="$PROJECT_DIR$/vbot/back_button.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/db_request.py" afterPath="$PROJECT_DIR$/vbot/db_request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/keyboard.py" afterPath="$PROJECT_DIR$/vbot/keyboard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/middleware.py" afterPath="$PROJECT_DIR$/vbot/middleware.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/models.py" afterPath="$PROJECT_DIR$/vbot/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/show_schedule.py" afterPath="$PROJECT_DIR$/vbot/show_schedule.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/subscribe.py" afterPath="$PROJECT_DIR$/vbot/subscribe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vbot/views.py" afterPath="$PROJECT_DIR$/vbot/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viber_bot/settings.py" afterPath="$PROJECT_DIR$/viber_bot/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viber_bot/urls.py" afterPath="$PROJECT_DIR$/viber_bot/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/ajax_requests.py" afterPath="$PROJECT_DIR$/web_interface/ajax_requests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/filters.py" afterPath="$PROJECT_DIR$/web_interface/filters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/forms.py" afterPath="$PROJECT_DIR$/web_interface/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/static/web_interface/js/my_scripts.js" afterPath="$PROJECT_DIR$/web_interface/static/web_interface/js/my_scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/add_schedule.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/add_schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/auth.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/auth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/base.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/index.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/settings.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/templates/web_interface/teachers.html" afterPath="$PROJECT_DIR$/web_interface/templates/web_interface/teachers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/urls.py" afterPath="$PROJECT_DIR$/web_interface/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_interface/views.py" afterPath="$PROJECT_DIR$/web_interface/views.py" />
     </list>
     <ignored path="viber_bot.iws" />
@@ -52,11 +26,21 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_interface/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="457">
+              <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viber_bot/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +76,6 @@
         <option value="$PROJECT_DIR$/web_interface/templates/web_interface/auth.html" />
         <option value="$PROJECT_DIR$/web_interface/templates/web_interface/settings.html" />
         <option value="$PROJECT_DIR$/web_interface/templates/web_interface/teachers.html" />
-        <option value="$PROJECT_DIR$/viber_bot/settings.py" />
         <option value="$PROJECT_DIR$/vbot/subscribe.py" />
         <option value="$PROJECT_DIR$/vbot/back_button.py" />
         <option value="$PROJECT_DIR$/vbot/db_request.py" />
@@ -102,11 +85,12 @@
         <option value="$PROJECT_DIR$/viber_bot/urls.py" />
         <option value="$PROJECT_DIR$/vbot/views.py" />
         <option value="$PROJECT_DIR$/web_interface/urls.py" />
-        <option value="$PROJECT_DIR$/web_interface/views.py" />
         <option value="$PROJECT_DIR$/web_interface/forms.py" />
         <option value="$PROJECT_DIR$/web_interface/filters.py" />
         <option value="$PROJECT_DIR$/web_interface/ajax_requests.py" />
         <option value="$PROJECT_DIR$/web_interface/static/web_interface/js/my_scripts.js" />
+        <option value="$PROJECT_DIR$/viber_bot/settings.py" />
+        <option value="$PROJECT_DIR$/web_interface/views.py" />
       </list>
     </option>
   </component>
@@ -169,125 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viber_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,21 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0007.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002_64djeYR.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0007.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002_64djeYR.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/profile_images/IMG-20170611-WA0002.jpg" />
     <entry file="file://$PROJECT_DIR$/vbot/templates/time.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -764,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viber_bot/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-818">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_interface/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,14 +713,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viber_bot/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_interface/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="457">
+          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
