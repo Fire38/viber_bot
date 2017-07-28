@@ -1,0 +1,30 @@
+{% extends 'web_interface/base.html' %}
+
+{% block title_block %}
+     Предметы
+{% endblock %}
+
+{% block body_block %}
+    <div class="container" id="filter">
+        <form ajax_url="{% url 'add_elements_to_database' %}" method="POST" id="form" name="subject">
+            {% csrf_token %}
+            {% if error %}
+                Ошибка ввода предмета
+            {% endif %}
+            {{ form.as_p }}
+            <button type="button" class="btn" id="add_button" >Добавить</button>
+            <button type="button" class="btn" id="delete">Удалить</button>
+        </form>
+    </div>
+
+    <table class="table table-striped" id="table_elements">
+        {% for subject in subjects %}
+            <tr>
+                <td><input type="checkbox" name="check" value="{{ subject.id }}" /></td>
+                <td>{{ subject.title }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+
+

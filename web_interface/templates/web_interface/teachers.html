@@ -1,0 +1,32 @@
+{% extends 'web_interface/base.html' %}
+
+{% block title_block %}
+    Преподаватели
+{% endblock %}
+
+
+{% block body_block %}
+    <div class="container" id="filter">
+        <form method="POST" ajax_url="{% url 'add_elements_to_database' %}" id="form" name="teacher">
+            {% csrf_token %}
+            {% if error %}
+                Ошибка ввода
+            {% endif %}
+            {{ form.as_p }}
+            <button type="button" class="btn" id="add_button">Добавить</button>
+            <button type="button" class="btn" id="delete">Удалить</button>
+        </form>
+    </div>
+
+    <table class="table table-striped" id="table_elements">
+        {% for teacher in teachers %}
+            <tr>
+                <td><input type="checkbox" name="check" value="{{ teacher.id }}" /></td>
+                <td>{{ teacher.name }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+
+
+

@@ -1,0 +1,1 @@
+web:  gunicorn viber_bot.wsgi --log-file -

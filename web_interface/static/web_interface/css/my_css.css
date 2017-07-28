@@ -1,0 +1,93 @@
+/* Templates css */
+body {
+  padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+a.nav-link{
+	color:white;
+	font-weight: bold;
+
+}
+
+li.nav-item:hover{
+    border-right: #27b54c 1px solid;
+    border-left: #27b54c 1px solid;
+}
+
+/*===========================================
+My css
+============================================*/
+
+#form p
+{
+    display:inline-block;
+    margin-right:15px;
+}
+
+#greating
+{
+    margin-top:4px;
+    text-align:right;
+}
+
+#greating .userbar, a
+{
+    color:white;
+    font-weight: bold;
+    margin-right:5px;
+}
+#greating .userbar img{
+    border-radius:50%;
+}
+
+#greating a:hover
+{
+    color:white;
+}
+
+.nav-link {
+    margin-top:10px;
+}
+
+#filter{
+    margin-top:10px;
+}
+
+#add_schedule label{
+    display:inline-block;
+    width:160px;
+    text-align: left;
+}
+
+#info{
+    background-color:#f9fefa;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:0px;
+}
+
+login_button:active{
+    color:red;
+}
+
+/*
+Формы добавления на add_schedule
+*/
+
+#subject_form, #teacher_form, #group_form{
+    display:none;
+     margin-left: 20px;
+
+}
+
+/* шаблон 404 */
+
+#error404_div{
+    text-align:center;
+    border: 1px solid black;
+}

@@ -1,0 +1,51 @@
+{% extends 'web_interface/base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+    Главная
+{% endblock %}
+
+{% block nav_block %}
+    <div class="userbar">
+        Здравствуй, <a href="{% url 'settings' %}">{{ request.user.username }}</a>
+        {% if user_profile %}
+            <img src="{{ user_profile.picture.url }}" alt="Аватар пользователя" width="50" height="50" >
+        {% else %}
+            <img src="{% static 'web_interface/images/unknow_avatar.png' %}" alt="Стандартная авка" width="50" height="50">
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block body_block %}
+    <div class="container" id="filtZer">
+        <form method="get" ajax_url="{% url 'delete_schedule' %}" id="form" >
+            {{ filter.form.as_p }}
+            <button type="submit" class="btn">Искать</button>
+            <button type="button" class="btn" id="filter_delete">Удалить</button>
+        </form>
+    </div>
+    <table class="table table-striped" id="table">
+        <thead>
+            <tr>
+                <th><input type="checkbox" name="check" id="check_all"/></th>
+                <th>День недели</th>
+                <th>Тип недели</th>
+                <th>Группа</th>
+                <th>Курс</th>
+                <th>Предмет</th>
+                <th>Аудитория</th>
+            </tr>
+        </thead>
+        {% for para in filter.qs %}
+            <tr>
+                <td><input type="checkbox" name="check" value="{{ para.id }}" id="check"/></td>
+                <td>{{ para.get_weekday_display }}</td>
+                <td>{{ para.type_of_week }}</td>
+                <td>{{ para.group }}</td>
+                <td>{{ para.course }}</td>
+                <td>{{ para.subject }}</td>
+                <td>{{ para.classroom }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

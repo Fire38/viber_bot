@@ -1,0 +1,34 @@
+{% extends 'web_interface/base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+    Настройки пользователя
+{% endblock %}
+
+{% block body_block %}
+    {% if success %}
+        <p id="information" class="alert alert-success">Пароль успешно изменен</p>
+    {% elif error %}
+        <p id="alert" class="alert alert-danger">Старый и новый пароль совпадают</p>
+    {% endif %}
+
+    <form action="{% url 'change_avatar' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <p>Загрузите аватар</p>
+        {{ profile_form.errors }}
+        {{ profile_form.as_p }}
+        <button type="submit" value="avatar" class="btn">Сохранить</button>
+    </form>
+    <hr>
+    <form action="{% url 'change_password' %}" method="POST">
+        {% csrf_token %}
+        {{ change_password_form.as_p }}
+        <button type="submit" class="btn">Сменить пароль</button>
+    </form>
+    <hr>
+
+    <form action="{% url 'logout' %}" method="POST">
+        {% csrf_token %}
+        <button type="submit" value="exit"class="btn" >Выход из системы</button>
+    </form>
+{% endblock %}

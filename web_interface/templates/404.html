@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Страница не найдена</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'web_interface/css/my_css.css' %}" media="screen" />
+    </head>
+
+    <body>
+        <div style="text-align:center;">
+            <h3>Ну вот, ты все сломал!:( Нажми на картинку для возвращения на главную страницу.</h3>
+        </div>
+        <a href="{% url 'index' %}"><img src="{% static 'web_interface/images/404.jpg' %}" alt="Page Not Found (404)." style="position: absolute; left: 50%; top: 50%; margin-left: -285px; margin-top: -190px;"></a>
+    </body>
+</html>

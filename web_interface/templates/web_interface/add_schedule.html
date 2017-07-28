@@ -1,0 +1,87 @@
+{% extends 'web_interface/base.html' %}
+
+{% block title_block %}
+    Добавить расписание
+{% endblock %}
+
+{% block body_block %}
+    {% if adding %}
+        <p id="information" class="alert alert-success" >Запись успешно добавлена</p>
+    {% endif %}
+
+    {% if exist %}
+        <p id="alert" class="alert alert-danger"> Такая запись уже существует</p>
+    {% endif %}
+
+    <div class="container" id="filter">
+        <form action="{% url 'schedule' %}" method="POST" id="add_schedule">
+            {% csrf_token %}
+            <p>
+                <div style="display:inline;">
+                    <label for="{{ form.subject.id_for_label }}">Предмет:</label>
+                    {{ form.subject }}
+                    <button type="button" id="add_subject" class="btn btn-sm">+</button>
+                </div>
+                <div id="subject_form" name="subject">
+                    <input type="text">
+                    <button type="button" class="btn schedule_add_button">Добавить</button>
+                </div>
+            </p>
+
+            <p>
+                <div style="display:inline;">
+                    <label for="{{ form.teacher.id_for_label }}">Преподаватель:</label>
+                    {{ form.teacher }}
+                    <button type="button" id="add_teacher" class="btn btn-sm">+</button>
+                </div>
+                <div id="teacher_form" name="teacher">
+                    <input type="text">
+                    <button type="button" class="btn schedule_add_button">Добавить</button>
+                </div>
+            </p>
+
+            <p>
+                <div style="display:inline;">
+                    <label for="{{ form.groupa.id_for_label }}">Группа:</label>
+                    {{ form.group }}
+                    <button type="button" id="add_group" class="btn btn-sm">+</button>
+                </div>
+                <div id="group_form" name="group">
+                    <input type="text">
+                    <button type="button" class="btn schedule_add_button">Добавить</button>
+                </div>
+            </p>
+
+            <p>
+                <label for="{{ form.course.id_for_label }}">Курс:</label>
+                {{ form.course }}
+            </p>
+            <p>
+                <label for="{{ form.subgroup.id_for_label }}">Подгруппа:</label>
+                {{ form.subgroup }}
+            </p>
+            <p>
+                <label for="{{ form.classroom.id_for_label }}">Номер аудитории:</label>
+                {{ form.classroom }}
+            </p>
+            <p>
+                <label for="{{ form.subject_type.id_for_label }}">Тип пары:</label>
+                {{ form.subject_type }}
+            </p>
+            <p>
+                <label for="{{ form.weekday.id_for_label }}">День недели:</label>
+                {{ form.weekday }}
+            </p>
+            <p>
+                <label for="{{ form.type_of_week.id_for_label }}">Тип недели:</label>
+                {{ form.type_of_week }}
+            </p>
+            <p>
+                <label for="{{ form.time.id_for_label }}"> Время начала:</label>
+                {{ form.time }}
+            </p>
+            <input type="submit" name="add" value="Добавить" class="btn">
+        </form>
+    </div>
+{% endblock %}
+

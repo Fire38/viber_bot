@@ -1,0 +1,27 @@
+{% extends 'web_interface/base.html' %}
+
+{% block title_block %}
+    Группы
+{% endblock %}
+
+{% block body_block %}
+    <div class="container" id="filter">
+        <form method="POST" ajax_url="{% url 'add_elements_to_database' %}" id="form" name="group">
+            {% csrf_token %}
+            {% if error %}
+                Ошибка ввода группы
+            {% endif %}
+            {{ form.as_p }}
+            <button type="button" class="btn" id="add_button">Добавить</button>
+            <button type="button" class="btn" id="delete">Удалить</button>
+        </form>
+    </div>
+    <table class="table table-striped" id="table_elements">
+        {% for group in groups %}
+            <tr>
+                <td><input type="checkbox" name="check" value="{{ group.id }}" /></td>
+                <td>{{ group.name }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
