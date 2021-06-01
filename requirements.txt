@@ -13,6 +13,6 @@ psycopg2==2.7.1
 python-decouple==3.0
 pytz==2017.2
 requests==2.18.1
-urllib3==1.21.1
+urllib3==1.26.5
 viberbot==1.0.11
 whitenoise==3.3.0
